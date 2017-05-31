@@ -16,12 +16,18 @@ knitr::opts_chunk$set(
 
 # easteRme
 
-The goal of easteRme is to ...
+The goal of easteRme is to ... tell you when Easter is! (Or Carnaval and/or Corpus Christi.)
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Yes, now this common dilemma can be solved with the magic of R. No more wandering in desolate ignorance for you, my fRiend! With `easteRme`, you can simply let R do the 'hard' work for you. Why, we can even see when Easter will fall in 2032:  
 
 ```{r example}
-## basic example code
+devtools::install_github("RobertMyles/easteRme")
+library(easteRme)
+
+easteR_me(year = 2032)
 ```
+
+Phew! Problem solved.  
+
