@@ -11,8 +11,6 @@ Yes, now this common dilemma can be solved with the magic of R. No more wanderin
 
 ``` r
 devtools::install_github("RobertMyles/easteRme")
-#> Skipping install of 'easteRme' from a github remote, the SHA1 (fb520b52) has not changed since last install.
-#>   Use `force = TRUE` to force installation
 library(easteRme)
 
 easteR_me(year = 2032)
