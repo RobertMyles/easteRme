@@ -10,7 +10,7 @@ Example
 Yes, now this common dilemma can be solved with the magic of R. No more wandering in desolate ignorance for you, my fRiend! With `easteRme`, you can simply let R do the 'hard' work for you. Why, we can even see when Easter will fall in 2032:
 
 ``` r
-devtools::install_github("RobertMyles/easteRme")
+remotes::install_github("RobertMyles/easteRme")
 library(easteRme)
 
 easteR_me(year = 2032)
@@ -20,4 +20,4 @@ easteR_me(year = 2032)
 #> 1  2032 2032-03-28
 ```
 
-Phew! Problem solved.
+Phew! Anxiety over. Problem solved.
